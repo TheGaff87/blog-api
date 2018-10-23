@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: SmdNvYfnv/48rGC5n/ZhhozcU1K/uJb52P1BBwCI9VZY8V/PvfrnZbIAsW4xC0kdalP6YDOQ/vJMSgdla0aNqTWbc45uiO2i0kSa68YDMcfcu3jBo8IOHWqu4fs82EGWUZ6LXj/KvRN8QyJkvxPxr7txE77o4OBppUUssu1X38YyVF0jcmJf0PEcGnz0UEfMM+Nt5a6S9bE79/UJBkRIJGjk9cYNMkSucqJhudf9dWFJJdTvTsLVaYbwuItm3D/UNWGpB51MzpLZksG+rUfTPYMtPeqGwj0/XRbCWaJYFUM1rnkOT3JhrngufUh7f3P1O2T7ps43jUGhcJVyL+UbUREqgOQeihqffko8YITEPdvtgxqnzCmYzPaX4PGo0/Ke7ZAfvZCp7qwg3RpWOJIYiyRdkcGJTdQ0YrmhqDlfJeUZP3YirjpDotyJm0Q8xhHuEO+ZgN+fKLAhFOmmLVuwN/b4hwQmot5y4iArrr7/AiJKh5Qjc3/0cMqRxw23xMF1uHo3LqvluQdd5vo5DxpG+0aq293bWo6y3d6ycEqt8WZFwhFCplYXWNXzlNeQRXbiNk0nePY1hR5B+qPL6qZIvOwZRyAslkkReTy7kW0TASKTLr/5o1GJDEl+fLAMOg/LySu9nqiyIl9IeZ+i5SYKnOwgZtNH4yiso6/FYaiZ28Y=
+  app: frozen-wildwood-24315
+  on:
+    repo: TheGaff87/blog-api
